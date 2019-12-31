@@ -1,8 +1,7 @@
+import { CssBaseline, jssPreset, StylesProvider } from "@material-ui/core";
 import { create } from "jss";
 import React from "react";
-import GreetCard from "../../components/GreetCard";
 import { IndexPageTemplate } from "../../templates/index-page";
-import { jssPreset, StylesProvider, CssBaseline } from "@material-ui/core";
 
 class IndexPagePreview extends React.Component {
   state = {
@@ -31,17 +30,17 @@ class IndexPagePreview extends React.Component {
         <React.Fragment>
           <div id="demo-frame-jss" ref={this.handleRef} />
           {this.state.ready ? (
-          <StylesProvider
-            jss={this.state.jss}
-            sheetsManager={this.state.sheetsManager}
-          >
+            <StylesProvider
+              jss={this.state.jss}
+              sheetsManager={this.state.sheetsManager}
+            >
               <CssBaseline />
               <IndexPageTemplate
                 greet={greet}
                 testimonials={testimonials}
               />
-          </StylesProvider>
-        ) : null}
+            </StylesProvider>
+          ) : null}
         </React.Fragment>
       )
     } else {

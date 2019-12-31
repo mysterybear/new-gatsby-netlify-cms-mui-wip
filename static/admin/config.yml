@@ -22,3 +22,16 @@ collections:
           - name: greet
             label: Greet
             widget: string
+          - name: testimonials
+            label: Testimonials
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Role
+                name: role
+                widget: string
+              - label: Comments
+                name: comments
+                widget: string
