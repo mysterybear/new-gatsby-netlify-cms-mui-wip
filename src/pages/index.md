@@ -1,4 +1,4 @@
 ---
-templateKey: index-page
-greet: world
+greet: Doodah
 ---
+
