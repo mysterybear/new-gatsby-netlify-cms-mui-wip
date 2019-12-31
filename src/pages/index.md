@@ -2,9 +2,9 @@
 templateKey: index-page
 greet: Doodah
 testimonials:
-  - comments: Fee fi foh fum
-    name: Noam Bomsky
-    role: Human Poos
+  - comments: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    name: Noam Chomsky
+    role: Human Resources
   - comments: >-
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim error
       consequuntur, optio corrupti exercitationem amet magni officiis facere
