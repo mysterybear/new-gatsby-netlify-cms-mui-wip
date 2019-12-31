@@ -19,6 +19,9 @@ collections:
         name: index-page
         label: Home Page
         fields:
+          - name: templateKey
+            label: Template Key
+            widget: hidden
           - name: greet
             label: Greet
             widget: string

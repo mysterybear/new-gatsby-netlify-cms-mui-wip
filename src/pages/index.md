@@ -1,4 +1,5 @@
 ---
+templateKey: index-page
 greet: Doodah
 testimonials:
   - comments: Fee fi foh fum
